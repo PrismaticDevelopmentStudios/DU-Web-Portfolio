@@ -157,3 +157,21 @@ button {
     background-color: salmon;
     padding-top: 7%;
 }
+
+#one {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
+
+#two {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
+
+#three {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
