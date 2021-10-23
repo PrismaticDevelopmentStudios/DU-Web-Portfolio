@@ -28,10 +28,15 @@
         </div>
     </header>
     <section id="section-1">
-        <h1 class="title">Matthew Brignola's Web Portfolio</h1>
-    </section>
-    <section id="section-2">
-        <p id="one" class="section">1</p>
+        <p id="one" class="section">
+            <form class="form" action="" method="post">
+                <label for="comments">Share Your Comments</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <label for="finished">Finished?</label>
+                <input type="checkbox" name="finished" id="finished">
+                <input type="submit"/>
+            </form>
+        </p>
         <p id="two" class="section">2</p>
         <p id="three" class="section">3</p>
         <button onclick="hi()">Hi</button>
