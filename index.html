@@ -30,7 +30,29 @@
     <!-- Start Sections -->
     <section id="section-1">
         <div class="sections">
-            <div id="one" class="section">
+            <div id="one" class="section forms">
+                <form class="form">
+                    <h3>Register</h3>
+                    <input type="text" name="ln" id="ln" placeholder="Last Name">
+                    <input type="email" name="enail" id="email" placeholder="Email">
+                    <label for="comments">Share Your Comments</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <label for="finished">Finished?</label>
+                    <input type="checkbox" name="finished" id="finished">
+                    <button onclick="hi()">Hi</button>
+                    <input type="submit" />
+                </form>
+                <form class="form">
+                    <h3>Register</h3>
+                    <input type="text" name="ln" id="ln" placeholder="Last Name">
+                    <input type="email" name="enail" id="email" placeholder="Email">
+                    <label for="comments">Share Your Comments</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <label for="finished">Finished?</label>
+                    <input type="checkbox" name="finished" id="finished">
+                    <button onclick="hi()">Hi</button>
+                    <input type="submit" />
+                </form>
                 <form class="form">
                     <h3>Register</h3>
                     <input type="text" name="ln" id="ln" placeholder="Last Name">
@@ -43,12 +65,14 @@
                     <input type="submit" />
                 </form>
             </div>
-            <button onclick="toTop()">Back to Top</button>
-            <div id="two" class="section">2</div>
-            <button onclick="toTop()">Back to Top</button>
-            <div id="three" class="section">3</div>
-            <button onclick="toTop()">Back to Top</button>
-            <div class="empty"></div>
+            <div class="flex">
+                <button class="btt" onclick="toTop()">Back to Top</button>
+                <div id="two" class="section">2</div>
+                <button class="btt" onclick="toTop()">Back to Top</button>
+                <div id="three" class="section">3</div>
+                <button class="btt" onclick="toTop()">Back to Top</button>
+                <div class="empty"></div>
+            </div>
         </div>
         <p>  
             <div class="credits">

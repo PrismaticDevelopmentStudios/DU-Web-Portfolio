@@ -138,6 +138,19 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: whitesmoke;
+    padding: 2%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    border: silver 2px dotted;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
 }
 
 input {
@@ -152,13 +165,22 @@ button {
     outline: none;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    margin: .5%;
+    color: white;
+}
+
+.btt {
+    margin: 0 auto;
+    margin-top: 2.5%;
+    font-weight: 600;
 }
 
 /* Sections */
 .section {
-    background-color: salmon;
     padding-top: 7%;
+}
+
+.sections {
+    margin-bottom: 15%;
 }
 
 #one {
@@ -179,6 +201,13 @@ button {
     font-weight: 600;
 }
 
-.sections {
-    height: 1500px;
+#comments {
+    width: 250px;
+    height: 50px;
+}
+
+/* Flex Class */
+.flex {
+    display: flex;
+    flex-direction: column;
 }
