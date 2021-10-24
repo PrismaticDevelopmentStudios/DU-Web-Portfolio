@@ -153,7 +153,7 @@ button {
 
 /* Sections */
 .section {
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     background-color: salmon;
     padding-top: 7%;
 }
@@ -174,4 +174,8 @@ button {
     font-size: 1.5em;
     text-align: center;
     font-weight: 600;
+}
+
+.sections {
+    height: 1500px;
 }
