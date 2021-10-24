@@ -140,6 +140,10 @@ form {
     align-items: center;
 }
 
+input {
+    margin: 5px
+}
+
 input[type="submit"],
 button {
     padding: 1%;
