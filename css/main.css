@@ -133,56 +133,7 @@ ul {
     margin: 1em;
 }
 
-/*  Form */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 2%;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-    border: silver 2px dotted;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.forms {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 5%;
-}
-
-input {
-    margin: 5px
-}
-
-input[type="submit"],
-button {
-    padding: 1%;
-    background: cornflowerblue;
-    border: none;
-    outline: none;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    color: white;
-}
-
-.btt {
-    margin: 0 auto;
-    margin-top: 2.5%;
-    font-weight: 600;
-}
-
 /* Sections */
-.section {
-    padding-top: 7%;
-}
-
-.sections {
-    margin-bottom: 15%;
-}
-
 #one {
     font-size: 1.5em;
     text-align: center;
@@ -210,4 +161,38 @@ button {
 .flex {
     display: flex;
     flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Portrait */
+.portrait {
+    padding-top: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+.portrait img {
+    height: 300px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.portrait h1,
+.portrait h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
