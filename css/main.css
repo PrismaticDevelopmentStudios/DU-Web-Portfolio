@@ -77,6 +77,10 @@ h6 {
     padding: 1%;
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Nav */
 ul {
     list-style-type: none;
