@@ -80,7 +80,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    padding: 1%;
+    padding: 0%;
 }
 
 h1 {
@@ -173,6 +173,10 @@ ul {
     height: 50px;
 }
 
+#web-apps {
+    margin-top: 5%;
+}
+
 
 /* Flex Class */
 
@@ -184,8 +188,19 @@ ul {
     flex-direction: column;
 }
 
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-/* Rows */
+.section {
+    margin-top: 8%;
+    padding-top: 7%;
+}
+
+
+/* Flex Rows */
 
 .flex-row {
     display: flex;
@@ -232,7 +247,6 @@ ul {
 
 table {
     margin: 0 auto;
-    padding: 2em;
 }
 
 th,
@@ -246,4 +260,5 @@ th {
     font-size: 1.5em;
     font-weight: 800;
     font-style: oblique;
+    margin: 0;
 }

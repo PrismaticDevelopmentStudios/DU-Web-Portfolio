@@ -19,29 +19,31 @@
             <nav>
                 <ul class="nav">
                     <img class="icon" src="./img/coding.png" alt="Coding">
-                    <li class="link"><a class="link" href="#portrait">Portrait</a></li>
-                    <li class="link"><a class="link" href="#resume-cover-letter">Resume/Cover Letter</a></li>
+                    <li class="link"><a class="link" href="#portrait">Portraits</a></li>
                     <li class="link"><a class="link" href="#web-apps">Web Apps</a></li>
+                    <li class="link"><a class="link" href="#resume-cover-letter">Resume/Cover Letter</a></li>
                     <div class="title">Prismatic Development Studios
-                        <div>
+                    </div>
                 </ul>
             </nav>
-            </div>
+        </div>
     </header>
     <!-- Start Sections -->
     <section id="section-1">
         <div class="sections">
-            <div id="portrait" class="portrait">
+            <!-- Section 1 -->
+            <div id="portrait" class="portrait section">
                 <h1>Matthew Brignola</h1>
                 <h3>Web Development Portfolio</h3>
                 <div class="img">
-                    <img src="./img/RedCover.jpg" alt="Image not loaded from server" srcset="">
-                    <img src="./img/SelfPortrait.jpg" alt="Image not loaded from server" srcset="">
+                    <span title="Photoshopped Portrait"><img src="./img/RedCover.jpg" alt="Image not loaded from server" srcset=""></span>
+                    <img title="Photoshopped Portrait" src="./img/SelfPortrait.jpg" alt="Image not loaded from server" srcset="">
                 </div>
-                <button onclick="hi()">Hi</button>
             </div>
-            <div id="web-apps">
-                <h1>Web apps</h1>
+            <!-- Section 2 -->
+            <div id="web-apps" class="section">
+                <br>
+                <h1>Web Apps</h1>
                 <table>
                     <tr>
                         <th>Vue.js Apps</th>
@@ -71,11 +73,12 @@
                             <a href="https://prismatic-timer.netlify.app">Reaction Timer</a>
                         </td>
                         <td></td>
-                        <td></td>
+                        <td><a href="https://prismaticdevelopmentstudios.github.io/html_css-samples/">HTML Refactoring Assignement</a></td>
                     </tr>
                 </table>
             </div>
-            <div class="flex-row" id="resume-cover-letter">
+            <!-- Section 3 -->
+            <div class="flex-row section" id="resume-cover-letter">
                 <div class="flex">
                     <h1>Resume</h1>
                     <iframe height="700" width="500" src="./docs/Resume.pdf"></iframe>
