@@ -177,6 +177,10 @@ ul {
     margin-top: 5%;
 }
 
+#web-apps a {
+    color: black;
+}
+
 
 /* Flex Class */
 
