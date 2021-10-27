@@ -1,0 +1,212 @@
+                                body {
+                                margin: 0;
+                                padding: 0;
+                                width: 100%;
+                                height: 100%;
+                                font-family: 'Inconsolata', monospace;
+                                background-color: rgb(153, 201, 255);
+                            }
+                            
+                            .header {
+                                width: 100%;
+                                height: 50px;
+                                top: 0;
+                                position: fixed;
+                            }
+                            /* Footer */
+                            
+                            .footer {
+                                position: fixed;
+                                bottom: 0;
+                                width: 100%;
+                                text-align: center;
+                                background-color: cornflowerblue;
+                                height: 80px;
+                                box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.5);
+                            }
+                            
+                            .footText {
+                                font-size: .75em;
+                                padding: 0%;
+                                color: white;
+                            }
+                            
+                            .credits {
+                                text-align: right;
+                            }
+                            /* Text Styling */
+                            
+                            .title {
+                                margin-left: 35%;
+                                color: rgb(0, 36, 108);
+                                padding: 1%;
+                                font-size: 1.5em;
+                                animation-duration: 3s;
+                                animation-name: fadeIn;
+                                font-weight: 900;
+                            }
+                            /* Heading Styles */
+                            
+                            h1,
+                            h2,
+                            h3,
+                            h4,
+                            h5,
+                            h6 {
+                                margin: 0;
+                                padding: 0%;
+                                text-align: center;
+                            }
+                            /* Nav */
+                            
+                            .nav {
+                                list-style-type: none;
+                                margin: 0;
+                                padding: 0;
+                                overflow: hidden;
+                                background-color: cornflowerblue;
+                                box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+                            }
+                            
+                            .link {
+                                float: left;
+                                font-size: 1.08em;
+                            }
+                            
+                            .link a {
+                                display: block;
+                                color: white;
+                                text-align: center;
+                                text-decoration: none;
+                                color: white;
+                            }
+                            /* icons */
+                            
+                            .icon {
+                                overflow: hidden;
+                                display: block;
+                                float: left;
+                                padding: 1%;
+                                padding-left: 2%;
+                            }
+                            
+                            .icons {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                            }
+                            
+                            .icons a {
+                                margin: 1em;
+                            }
+                            /* Flex Class */
+                            /* Sections */
+                            
+                            .flex {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            
+                            .section {
+                                padding-top: 5%;
+                                padding-bottom: 5%;
+                                margin-left: 8%;
+                                margin-right: 8%;
+                                overflow: scroll;
+                                background-color: white;
+                            }
+                            
+                            .section ul {
+                                background: none;
+                            }
+                            /* Flex Rows */
+                            
+                            .flex-row {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                            }
+                            
+                            .flex-row .flex {
+                                padding-left: 3%;
+                                padding-right: 3%;
+                            }
+                            /* Portrait */
+                            
+                            .portrait {
+                                margin-bottom: 0;
+                                padding-bottom: 0%;
+                            }
+                            
+                            .portrait {
+                                height: 20vh;
+                                margin-left: 1%;
+                                margin-right: 1%;
+                                margin-top: 1%;
+                            }
+                            
+                            .img {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            #signature {
+                                height: 150px;
+                            }
+                            /* Table */
+                            
+                            table {
+                                margin: 0 auto;
+                            }
+                            
+                            th {
+                                padding-top: 5%;
+                            }
+                            /* Media Queries */
+                            
+                            @media only screen and (max-width: 600px) {
+                                #main-icon {
+                                    display: none;
+                                }
+                                .icon {
+                                    width: 30px;
+                                }
+                                .title {
+                                    display: none;
+                                }
+                                .nav {
+                                    height: 50px;
+                                }
+                                .link a {
+                                    padding: 10px 8px;
+                                    text-decoration: underline;
+                                }
+                                .section {
+                                    margin-top: 20%;
+                                }
+                            }
+                            
+                            @media only screen and (min-width: 601px) {
+                                .icon {
+                                    height: 50px;
+                                }
+                                .nav {
+                                    height: 60px;
+                                }
+                                .link a {
+                                    padding: 20px 16px;
+                                }
+                                /* Animations */
+                                @keyframes fadeIn {
+                                    0% {
+                                        transform: scale(0);
+                                        opacity: 0;
+                                    }
+                                    80% {
+                                        transform: scale(1.05);
+                                    }
+                                    100% {
+                                        transform: scale(1);
+                                        opacity: 1;
+                                    }
+                                }

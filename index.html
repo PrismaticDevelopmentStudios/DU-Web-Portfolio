@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
     <title>Matthew Brignola's Web Portfolio</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,106 +14,46 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
-        <div class="page">
-            <nav>
-                <ul class="nav">
-                    <img class="icon" src="./img/coding.png" alt="Coding">
-                    <li class="link"><a class="link" href="#portrait">Portraits</a></li>
-                    <li class="link"><a class="link" href="#web-apps">Web Apps</a></li>
-                    <li class="link"><a class="link" href="#resume-cover-letter">Resume/Cover Letter</a></li>
-                    <div class="title">Prismatic Development Studios
-                    </div>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul class="nav">
+                <img class="icon" id="main-icon" src="./img/coding.png" alt="Coding">
+                <li class="link"><a class="link" href="index.html">Home</a></li>
+                <li class="link"><a class="link" href="./html/web-apps.html">Web Apps</a></li>
+                <li class="link"><a class="link" href="./html/resume.html">Resume</a></li>
+                <li class="link"><a class="link" href="./html/cover-letter.html">Cover Letter</a></li>
+                <div class="title">Prismatic Development Studios
+                </div>
+            </ul>
+        </nav>
     </header>
-    <!-- Start Sections -->
-    <section id="section-1">
-        <div class="sections">
-            <!-- Section 1 -->
-            <div id="portrait" class="portrait section">
-                <br><br>
-                <h1>Matthew Brignola</h1>
-                <h3>Web Development Portfolio</h3>
-                <div class="img">
-                    <span title="Photoshopped Portrait"><img src="./img/RedCover.jpg" alt="Image not loaded from server" srcset=""></span>
-                    <img title="Photoshopped Portrait" src="./img/SelfPortrait.jpg" alt="Image not loaded from server" srcset="">
-                </div>
-            </div>
-            <!-- Section 2 -->
-            <div id="web-apps" class="section">
-                <br>
-                <h1>Web Apps</h1>
-                <table>
-                    <tr>
-                        <th>Vue.js Apps</th>
-                        <th>React.js Apps</th>
-                        <th>Webpages</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            &#9733;
-                            <a href="https://primatic-tic-tac-toe.netlify.app" target="_blank">Tic Tac Toe</a>
-                        </td>
-                        <td></td>
-                        <td>
-                            &#9733;
-                            <a target="_blank" href="https://matthew-brignola.netlify.app">Sample Portfolio</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &#9733;
-                            <a target="_blank" href="https://prismatic-vue-calendar.netlify.app">Calendar</a>
-                        </td>
-                        <td></td>
-                        <td>
-                            &#9733;
-                            <a target="_blank" href="https://app.netlify.com/sites/checkmate-media/overview">Fake Media Company Website</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            &#9733;
-                            <a target="_blank" href="https://prismatic-timer.netlify.app">Reaction Timer</a>
-                        </td>
-                        <td></td>
-                        <td><a target="_blank" href="https://prismaticdevelopmentstudios.github.io/html_css-samples/">HTML Refactoring Assignement</a></td>
-                    </tr>
-                </table>
-            </div>
-            <!-- Section 3 -->
-            <div class="flex-row section" id="resume-cover-letter">
-                <div class="flex">
-                    <h1>Resume</h1>
-                    <iframe height="600" width="400" src="./docs/Resume.pdf"></iframe>
-                </div>
-                <div class="flex">
-                    <h1>Cover Letter</h1>
-                    5<iframe width="400" height="600" src="./docs/CoverLetter.pdf" frameborder="0"></iframe>
-                </div>
-            </div>
+    <!-- Page -->
+    <div class="section">
+        <h1>Matthew Brignola</h1>
+        <h3>Web Development Portfolio</h3>
+        <div class="img">
+            <img class="portrait" src="./img/RedCover.jpg" alt="Image not loaded from server" srcset="">
+            <img class="portrait" src="./img/SelfPortrait.jpg" alt="Image not loaded from server" srcset="">
         </div>
-        <p>
-            <div class="credits">
-                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.    com</a></div>
-            </div>
-        </p>
-    </section>
-    <footer class="footer">
-        <div class="footText">
-            <div class="icons">
-                <a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/matthewbrignola/"><img class="icon" src="./img/linkedin.png" alt="LinkedIn"></a>
-                <a title="GitHub" href="https://github.com/PrismaticDevelopmentStudios" target="_blank"><img class="icon" src="./img/github.png" alt="GitHub"></a>
-                <a title="Slack" target="_blank" href="https://media-gvn6693.slack.com/archives/D017Q8Q0S0Z"><img class="icon" src="./img/slack.png" alt="Slack"></a>
-                <a title="Angel List" href="https://angel.co/u/matthew-brignola" target="_blank"><img class="icon" src="./img/angel-list.png" alt="Angel List"></a>
-                <a title="Facebook" target="_blank" href="https://www.facebook.com/matthew.brignola"><img class="icon" src="./img/facebook.png" alt="Facebook"></a>
-                <a title="Stack Overflow" target="_blank" href="https://stackoverflow.com/users/13906959/checkmatemedia"><img class="icon" src="./img/stack-overflow.png" alt="stack Overflow"></a>
-            </div>
+    </div>
+    <p>
+        <div class="credits ">
+            <div>Icons made by <a href="https://www.freepik.com " title="Freepik ">Freepik</a> from <a href="https://www.flaticon.com/ " title="Flaticon ">www.flaticon.    com</a></div>
+        </div>
+    </p>
+    <!-- Footer -->
+    <footer class="footer ">
+        <div class="icons">
+            <a title="LinkedIn " target="_blank " href="https://www.linkedin.com/in/matthewbrignola/ "><img class="icon " src="./img/linkedin.png " alt="LinkedIn "></a>
+            <a title="GitHub " href="https://github.com/PrismaticDevelopmentStudios " target="_blank "><img class="icon " src="./img/github.png " alt="GitHub "></a>
+            <a title="Slack " target="_blank " href="https://media-gvn6693.slack.com/archives/D017Q8Q0S0Z "><img class="icon " src="./img/slack.png " alt="Slack "></a>
+            <a title="Angel List " href="https://angel.co/u/matthew-brignola " target="_blank "><img class="icon " src="./img/angel-list.png " alt="Angel List "></a>
+            <a title="Facebook " target="_blank " href="https://www.facebook.com/matthew.brignola "><img class="icon " src="./img/facebook.png " alt="Facebook "></a>
+            <a title="Stack Overflow " target="_blank " href="https://stackoverflow.com/users/13906959/checkmatemedia "><img class="icon " src="./img/stack-overflow.png " alt="stack Overflow "></a>
         </div>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js "></script>
 </body>
 
 </html>
