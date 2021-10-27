@@ -45,7 +45,12 @@
                                             animation-name: fadeIn;
                                             font-weight: 900;
                                         }
-                                        /* Heading Styles */
+                                        
+                                        p {
+                                            margin: 0;
+                                            padding: 0;
+                                            text-indent: 2em;
+                                        }
                                         
                                         h1,
                                         h2,
