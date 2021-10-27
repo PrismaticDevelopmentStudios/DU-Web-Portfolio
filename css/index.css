@@ -197,31 +197,17 @@
                                             td {
                                                 border-left: 50px;
                                             }
-                                            /* CSS Grid */
+                                            /* App List */
                                             
-                                            .grid-container {
-                                                display: grid;
-                                                justify-content: center;
-                                                grid-template-columns: 50px 50px 50px;
-                                                /*Make the grid smaller than the container*/
-                                                grid-gap: 5% 6%;
-                                                padding: 5px;
-                                                margin-bottom: 15%;
+                                            .app-list {
+                                                list-style-type: square;
+                                                text-align: left;
+                                                list-style-position: inside;
+                                                margin-left: 33%;
                                             }
                                             
-                                            .grid-container>div {
-                                                text-align: center;
-                                                padding-left: 10px 0;
-                                                padding-right: 10px 0;
-                                                font-size: 15px;
-                                            }
-                                            
-                                            .grid-item a {
-                                                text-decoration: underline;
-                                            }
-                                            
-                                            .bullet {
-                                                font-size: 16px;
+                                            ul h2 {
+                                                text-align: left;
                                             }
                                             /* Media Queries */
                                             
