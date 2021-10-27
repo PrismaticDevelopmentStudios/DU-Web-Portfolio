@@ -50,6 +50,13 @@
                                             margin: 0;
                                             padding: 0;
                                             text-indent: 2em;
+                                            padding-left: 3%;
+                                            padding-right: 3%;
+                                        }
+                                        
+                                        .signature {
+                                            padding-left: 3%;
+                                            padding-right: 3%;
                                         }
                                         
                                         h1,
