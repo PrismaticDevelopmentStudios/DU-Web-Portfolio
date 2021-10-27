@@ -33,6 +33,7 @@
                                         
                                         .credits {
                                             text-align: right;
+                                            margin-bottom: 25%;
                                         }
                                         /* Text Styling */
                                         
@@ -165,6 +166,9 @@
                                         #signature {
                                             height: 150px;
                                         }
+                                        /* .signature {
+                                            margin-bottom: 8%;
+                                        } */
                                         /* Table */
                                         
                                         table {
