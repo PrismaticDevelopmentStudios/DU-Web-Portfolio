@@ -149,6 +149,7 @@
                                         .portrait {
                                             margin-bottom: 0;
                                             padding-bottom: 0%;
+                                            box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
                                         }
                                         
                                         .portrait {
@@ -158,6 +159,14 @@
                                             margin-top: 1%;
                                         }
                                         
+                                        #portrait-1 {
+                                            transform: rotate(5deg);
+                                        }
+                                        
+                                        #portrait-2 {
+                                            transform: rotate(355deg);
+                                        }
+                                        
                                         .img {
                                             display: flex;
                                             justify-content: center;
@@ -165,6 +174,11 @@
                                         
                                         #signature {
                                             height: 150px;
+                                        }
+                                        
+                                        .cog {
+                                            margin-top: 12%;
+                                            margin-bottom: 12%;
                                         }
                                         /* .signature {
                                             margin-bottom: 8%;
@@ -216,6 +230,9 @@
                                             }
                                             .section {
                                                 margin-top: 10%;
+                                            }
+                                            .portrait {
+                                                height: 30vh;
                                             }
                                         }
                                         /* Animations */
