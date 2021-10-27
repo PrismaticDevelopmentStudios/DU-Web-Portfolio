@@ -123,8 +123,6 @@
                                             .section {
                                                 padding-top: 5%;
                                                 padding-bottom: 5%;
-                                                margin-left: 8%;
-                                                margin-right: 8%;
                                                 overflow: scroll;
                                                 background-color: white;
                                             }
@@ -247,6 +245,8 @@
                                                 }
                                                 .section {
                                                     margin-top: 10%;
+                                                    margin-left: 8%;
+                                                    margin-right: 8%;
                                                 }
                                                 .portrait {
                                                     height: 30vh;
