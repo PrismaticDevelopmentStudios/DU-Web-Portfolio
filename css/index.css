@@ -86,6 +86,16 @@
                                                 font-size: 1.08em;
                                             }
                                             
+                                            .link:hover {
+                                                color: gold;
+                                            }
+                                            
+                                            .active {
+                                                font-weight: 900;
+                                                font-style: oblique;
+                                                size: 2em;
+                                            }
+                                            
                                             .link a {
                                                 display: block;
                                                 color: white;
