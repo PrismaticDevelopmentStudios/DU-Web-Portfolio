@@ -103,6 +103,10 @@
                                                 padding-left: 2%;
                                             }
                                             
+                                            .icon:hover {
+                                                opacity: 0.5;
+                                            }
+                                            
                                             .icons {
                                                 display: flex;
                                                 flex-direction: row;
