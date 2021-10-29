@@ -40,13 +40,13 @@
     </div>
     <div id="modal">
         <button class="button x" onclick="closeModal()">X</button>
-        <form>
+        <form autocomplete="on">
             <div id="x" onclick="closeModal()">X</div>
             <h1>Sign Up Here For Our Weekly Newsletter</h1>
             <input type="text" name="username" id="username" placeholder="Username">
             <input type="email" name="email" id="email" placeholder="Valid Email">
             <input type="number" name="phone" id="phone" placeholder="Phone Number">
-            <input type="submit">
+            <input type="submit" onclick="alertUser()">
         </form>
     </div>
     <p>

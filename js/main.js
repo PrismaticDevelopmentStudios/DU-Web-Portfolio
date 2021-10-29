@@ -13,3 +13,7 @@ function closeModal() {
     document.getElementById('modal').style.display = "none";
     console.log('close');
 }
+
+function alertUser() {
+    alert('This form is just for design practice. Data was not saved.')
+}
