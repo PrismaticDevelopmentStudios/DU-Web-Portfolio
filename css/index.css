@@ -128,8 +128,6 @@
                                                 margin: 1em;
                                             }
                                             
-                                            #main-icon {}
-                                            
                                             #main-icon:hover {
                                                 opacity: 1;
                                             }
@@ -213,13 +211,10 @@
                                             /* App List */
                                             
                                             .app-list {
-                                                list-style-type: square;
-                                                text-align: left;
-                                                list-style-position: inside;
-                                                margin-left: 33%;
+                                                flex-wrap: wrap;
                                             }
                                             
-                                            ul h2 {
+                                            .app-list h2 {
                                                 text-align: left;
                                             }
                                             /* Modal */
@@ -251,6 +246,10 @@
                                                 padding: 2%;
                                                 width: 20%;
                                                 cursor: pointer;
+                                            }
+                                            
+                                            #modal h1 {
+                                                color: cornflowerblue;
                                             }
                                             
                                             #x {
