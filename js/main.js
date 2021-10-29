@@ -13,3 +13,7 @@ function closeModal() {
     document.getElementById('modal').style.display = "none";
     console.log('close');
 }
+
+function alertMessage() {
+    alert('Close the modal without being able to submit the form because I have not added an Api.');
+}

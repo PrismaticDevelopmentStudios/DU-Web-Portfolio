@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="alertMessage()">
     <!-- Header -->
     <header class="header">
         <nav>
@@ -41,6 +41,7 @@
     <div id="modal">
         <button class="button x" onclick="closeModal()">X</button>
         <form action="" method="post">
+            <h2>Sign Up Here</h2>
             <input type="text" name="username" id="username" placeholder="Username">
             <input type="email" name="email" id="email" placeholder="Valid Email">
             <input type="number" name="phone" id="phone" placeholder="Phone Number">
