@@ -15,5 +15,5 @@ function closeModal() {
 }
 
 function alertUser() {
-    alert('This form is just for design practice. Data was not saved.')
+    alert('This form is just for design practice. Your data was not saved.')
 }
