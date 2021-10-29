@@ -246,6 +246,7 @@
                                                 padding: 2%;
                                                 width: 20%;
                                                 cursor: pointer;
+                                                width: fit-content;
                                             }
                                             
                                             #modal h1 {
