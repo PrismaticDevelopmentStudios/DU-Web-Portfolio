@@ -262,11 +262,6 @@
                                                 text-align: right;
                                                 display: inline-block;
                                             }
-                                            
-                                            #closeText {
-                                                text-align: right;
-                                                color: white;
-                                            }
                                             /* Media Queries */
                                             
                                             @media only screen and (max-width: 600px) {
