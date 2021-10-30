@@ -260,6 +260,12 @@
                                                 font-family: Arial, Helvetica, sans-serif;
                                                 cursor: pointer;
                                                 text-align: right;
+                                                display: inline-block;
+                                            }
+                                            
+                                            #closeText {
+                                                text-align: right;
+                                                color: white;
                                             }
                                             /* Media Queries */
                                             
