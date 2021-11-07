@@ -19,7 +19,8 @@ This is Matthew Brignola's web portfolio for DU's Coding Bootcamp.
 ## Instructions
 <ol>
   <li>Click the red 'X' to close the modal</li>
-  <li>If you click the submit button instead, nothing will happen because this website is not connected to an API to collect the data</li>
+  <li>If you click the submit button instead, nothing will happen because this website is not connected to API that collects the data</li>
+  <li>Use the navigation links to view the different pages of the web portfolio</li>
  <ol>
 
 
