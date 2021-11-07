@@ -13,9 +13,11 @@ This is Matthew Brignola's web portfolio for DU's Coding Bootcamp.
 <a href="https://www.linkedin.com/in/matthewbrignola/">LinkedIn</a> <br>
 <a href="https://github.com/PrismaticDevelopmentStudios">GitHub</a> <br>
 ## Technologies
-HTML
-CSS
-JavaScript
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+ </ol>
 ## Instructions
 <ol>
   <li>Click the red 'X' to close the modal</li>
